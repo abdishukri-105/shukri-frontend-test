@@ -1,12 +1,13 @@
 
 import './App.css'
+import CheckboxCard from './components/CheckboxCard'
 
 function App() {
 
 
   return (
     <>
-    <h2 className='text-4xl bg-green-700 '>starting ....</h2>
+    <CheckboxCard />
     </>
   )
 }
