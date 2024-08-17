@@ -3,12 +3,15 @@ import CheckboxItems from "./CheckboxItems"
 
 const CheckboxCard = () => {
   return (
-    <div 
-    className="relative   py-0 w-full h-[326px]  my5px]  border border-[#eeeeee] shadow-md rounded-md box-border flex flex-col items-start">
+    <section>
+       <div 
+        className="relative   py-0 w-full h-[326px] px-[10px]  
+       border-[#eeeeee] border-[1px] shadow-custom-multi rounded-[6px] box-borer flex flex-col items-start">
         <CheckboxItems/>
         <Button />
-    </div>
+        </div>
+    </section>
   )
 }
 
-export default CheckboxCard
+export default CheckboxCard  

@@ -7,7 +7,10 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        montserrat: ["Montserrat Regular", "sans-serif"],
+        montserrat: ["Montserrat", "sans-serif"],
+      },
+      boxShadow: {
+        'custom-multi': '0px 8px 15px 0px rgba(20, 20, 20, 0.12), 0px 0px 4px 0px rgba(20, 20, 20, 0.10)',
       },
     },
   },
