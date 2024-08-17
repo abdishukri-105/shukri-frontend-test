@@ -6,10 +6,11 @@ function App() {
 
 
   return (
-   
-    <div className='flex items-center justify-center min-h-screen bg-gray-100' >
+   <section className='w-[578px] mt-40  h-[794px] flex relativ  justify-center bg-white'>
+    <div className='' >
       <CheckboxCard />
     </div>
+    </section>
   
   )
 }
