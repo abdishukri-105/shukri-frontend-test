@@ -6,9 +6,13 @@ function App() {
 
 
   return (
-   <section className='w-[578px] mt-40  h-[794px] flex relativ  justify-center bg-white'>
-    <div className='' >
+   <section 
+   className=' flex relative items-center   justify-center bg-white'
+   >
+    <div className='relative w-[578px]  h-[794px] bg-greeen-200' >
+      <div className='absolute bg-ble-200 top-[85px] left-[104px]'>
       <CheckboxCard />
+      </div>
     </div>
     </section>
   
