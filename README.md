@@ -71,5 +71,6 @@ The project is part of test assignment from ellty.
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/your-repo.git
-   cd your-repo
+   git clone https://github.com/abdishukri-105/shukri-frontend-test.git
+
+   cd your-shukri-frontend-test
