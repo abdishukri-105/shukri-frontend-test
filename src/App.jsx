@@ -1,6 +1,7 @@
 
 import './App.css'
 import CheckboxCard from './components/CheckboxCard'
+import CustomCheckbox from './components/Customcheckbox'
 
 function App() {
 
@@ -13,7 +14,9 @@ function App() {
       <div className='absolute bg-ble-200 top-[85px] left-[104px]'>
       <CheckboxCard />
       </div>
+      <CustomCheckbox />
     </div>
+    
     </section>
   
   )
