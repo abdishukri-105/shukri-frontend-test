@@ -1,3 +1,4 @@
+import CustomCheckbox from "./Customcheckbox";
 
 
 const pages = [
@@ -17,17 +18,7 @@ const CheckboxItems = () => {
           <label className="text-[#1F2128] font-montserrat text-[14px] font-normal leading-[18px]">
             All pages
           </label>
-          <div className="w-[35px] relative h-[35px] ">
-            <input
-              type="checkbox"
-              className="w-[25px] hover:cursor-pointer  hover:border-[2px] appearance-none 
-              hover:checked:group-valid focus:ring-blue-200 absolute h-[25px] bg-white
-               border-[#CDCDCD] opacity-60 border-[1px] left-[6px] top-[6.5px]  rounded-[6px]
-               
-               "
-            
-            />
-          </div>
+        <CustomCheckbox />
         </div>
       </div>
 
@@ -42,13 +33,7 @@ const CheckboxItems = () => {
               {page}
             </label>
 
-            <div className="w-[35px] relative  h-[35px] ">
-              <input
-              type="checkbox"
-              className="w-[25px] hover:cursor-pointer   appearance-none hover:checked:group-valid focus:ring-gray-200 absolute h-[25px] bg-white border-[#CDCDCD] opacity-60 border-[1px] hover:border-[2px] left-[6px] top-[6.5px]  rounded-[6px]"
-             />
-             
-            </div>
+            <CustomCheckbox />
           </div>
         ))}
       </section>
