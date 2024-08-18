@@ -8,7 +8,7 @@ const CustomCheckbox = () => {
   };
 
   return (
-    <label className="relative  flex items-center justify-center w-[35px] h-[35px] cursor-pointer">
+    <label className="relative  flex items-center justify-center  cursor-pointer">
       <input
         type="checkbox"
         className="absolute w-0 h-0 opacity-0"
@@ -16,14 +16,14 @@ const CustomCheckbox = () => {
         checked={isChecked}
       />
       <div
-        className={`w-[25px] relative h-[25px] rounded-[6px] border transition-all duration-200 ${
+        className={`w-[23px] relative h-[23px] rounded-[6px] border transition-all duration-200 ${
           isChecked
             ? "bg-blue-600 transiton-opacity duration-200 hover:bg-blue-500 "
             : "bg-white border-[#CDCDCD] hover:border-[#878787] shadow-[#878787]"
         }`}
       >
         <svg
-          className={`absolute inset-0 w-[19px] h-[14px] m-auto transiton-opacity durtion-200 ${
+          className={`absolute inset-0 w-[15.64px] h-[11.04px] m-auto transiton-opacity durtion-200 ${
             isChecked ? "text-white opacity-100" : "opacity-0 hover:opacity-100 hover:text-[#878787]"
           }`}
           xmlns="http://www.w3.org/2000/svg"
