@@ -24,9 +24,9 @@ const CheckboxItems = () => {
 
      <Divider />
 
-      <section className="max-h-[164px] px-[8px] overflow-scroll hide-scrollbar min-w-[370px] ">
+      <section className="max-h-[164px] px-[8px]  overflow-scroll hide-scrollbar min-w-[370px] ">
         {pages.map((page, index) => (
-          <div key={index} className="flex px-[8px] hover:cursor-pointer w-full h-[42px] items-center justify-between">
+          <div key={index} className="flex px-[8px] pb-[22px] pt-[15px] hover:cursor-pointer w-full h-[42px] items-center justify-between">
             <label className="text-[#1F2128] font-montserrat text-[14px] font-normal leading-[18.2px]">
               {page}
             </label>
